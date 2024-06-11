@@ -18,6 +18,9 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+st.text("Sample Query:")
+st.markdown("Give me the top 5 properties brokered by COMPASS, include the details like address, price, property size, number of beds and baths, give the results in tabular format")
+
 if prompt := st.chat_input("What is up?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
