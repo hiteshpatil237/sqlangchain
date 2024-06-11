@@ -9,8 +9,7 @@ Welcome to the NL2SQL and Retrieval Augmented Generation (RAG) Chatbot applicati
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Live Demo](#live-demo)
 
 ## Introduction
 
@@ -33,3 +32,33 @@ To set up the application, follow these steps:
    ```bash
    git clone https://github.com/yourusername/nl2sql-rag-chatbot.git
    cd nl2sql-rag-chatbot
+
+2. **Install the required packages:**
+   ```bash
+   pip install langchain_openai langchain_community langchain pymysql chromadb faiss-cpu
+
+3. **Set up environment variables:**
+   ```bash
+   export OPENAI_API_KEY='your_openai_api_key'
+   export DB_USER='your_db_user'
+   export DB_PASSWORD='your_db_password'
+   export DB_HOST='your_db_host'
+   export DB_NAME='your_db_name'
+
+## Usage
+
+1. **Run Application:**
+   ```bash
+   streamlit run main.py
+
+## Technologies Used
+
+1. **LangChain**: Framework for natural language and SQL integration.
+2. **OpenAI**: Large language models for natural language understanding and generation.
+3. **HuggingFace Sentence Transformers** Sentence Transformer: For generating embeddings.
+4. **FAISS**: For efficient similarity searches in vector databases.
+5. **Python**: Programming language for building the application.
+
+## Live Demo
+
+**This app is hosted on**: https://sqlangchain.streamlit.app/
