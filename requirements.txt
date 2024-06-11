@@ -7,3 +7,4 @@ langchain-openai
 pandas
 chromadb
 PyMySQL
+pysqlite3
