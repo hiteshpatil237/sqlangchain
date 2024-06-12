@@ -30,8 +30,8 @@ To set up the application, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/nl2sql-rag-chatbot.git
-   cd nl2sql-rag-chatbot
+   git clone https://github.com/hiteshpatil237/sqlangchain.git
+   cd sqlangchain
 
 2. **Install the required packages:**
    ```bash
