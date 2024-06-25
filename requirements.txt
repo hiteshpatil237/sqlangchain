@@ -8,3 +8,4 @@ pandas
 chromadb
 PyMySQL
 pysqlite3-binary
+protobuf~=3.19.0
